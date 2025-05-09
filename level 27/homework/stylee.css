@@ -1,0 +1,61 @@
+
+
+body {
+    background-color: #ADD8E6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: babyblue;
+    color: white;
+    padding: 20px;
+}
+
+header .brand-name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+header nav li {
+    margin-left: 20px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+main {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #white;
+    margin: 20px 0;
+}
+
+p {
+    font-size: 18px;
+    color: #Green;
+}
+
+
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+}
