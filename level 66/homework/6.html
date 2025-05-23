@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+
+<input type="text" name="phone" placeholder="Enter phone" />
+<button id="alertPhoneBtn">Show Phone</button>
+
+<script>
+  document.getElementById('alertPhoneBtn').addEventListener('click', function() {
+    let phoneValue = document.getElementsByName('phone')[0].value;
+    alert(phoneValue);
+  });
+</script>
+
+</body>
+</html>
