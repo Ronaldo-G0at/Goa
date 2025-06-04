@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Button Actions</title>
+    <style>
+        #myDiv {
+            width: 200px;
+            height: 100px;
+            background-color: lightgray;
+            margin-top: 10px;
+        }
+        #myHeading {
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+
+    <p id="myParagraph">This is a paragraph.</p>
+    <h1 id="myHeading">Heading</h1>
+    <div id="myDiv">This is a div</div>
+
+    <button onclick="changeText()">Change Text</button>
+    <button onclick="changeBackground()">Change Background</button>
+    <button onclick="changeFontSize()">Change Font Size</button>
+    <button onclick="hideDiv()">Hide Div</button>
+    <button onclick="showAlert()">Show Alert</button>
+
+    <script>
+        function changeText() {
+            document.getElementById("myParagraph").textContent = "Text changed!";
+        }
+
+        function changeBackground() {
+            document.getElementById("myDiv").style.backgroundColor = "skyblue";
+        }
+
+        function changeFontSize() {
+            document.getElementById("myHeading").style.fontSize = "40px";
+        }
+
+        function hideDiv() {
+            document.getElementById("myDiv").style.display = "none";
+        }
+
+        function showAlert() {
+            alert("Custom message: Hello from JavaScript!");
+        }
+    </script>
+
+</body>
+</html>
